@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C945A7A11D53DB0A0078C4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945A7A01D53DB0A0078C4CC /* AppDelegate.swift */; };
+		C945A7A31D53DB0A0078C4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945A7A21D53DB0A0078C4CC /* ViewController.swift */; };
+		C945A7A61D53DB0A0078C4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945A7A41D53DB0A0078C4CC /* Main.storyboard */; };
+		C945A7A81D53DB0A0078C4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C945A7A71D53DB0A0078C4CC /* Assets.xcassets */; };
+		C945A7AB1D53DB0A0078C4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945A7A91D53DB0A0078C4CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C945A79D1D53DB0A0078C4CC /* AugmentedRealityCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedRealityCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C945A7A01D53DB0A0078C4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C945A7A21D53DB0A0078C4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C945A7A51D53DB0A0078C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C945A7A71D53DB0A0078C4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C945A7AA1D53DB0A0078C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C945A7AC1D53DB0A0078C4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C945A79A1D53DB0A0078C4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C945A7941D53DB0A0078C4CC = {
+			isa = PBXGroup;
+			children = (
+				C945A79F1D53DB0A0078C4CC /* AugmentedRealityCompass */,
+				C945A79E1D53DB0A0078C4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C945A79E1D53DB0A0078C4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C945A79D1D53DB0A0078C4CC /* AugmentedRealityCompass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C945A79F1D53DB0A0078C4CC /* AugmentedRealityCompass */ = {
+			isa = PBXGroup;
+			children = (
+				C945A7A01D53DB0A0078C4CC /* AppDelegate.swift */,
+				C945A7A21D53DB0A0078C4CC /* ViewController.swift */,
+				C945A7A41D53DB0A0078C4CC /* Main.storyboard */,
+				C945A7A71D53DB0A0078C4CC /* Assets.xcassets */,
+				C945A7A91D53DB0A0078C4CC /* LaunchScreen.storyboard */,
+				C945A7AC1D53DB0A0078C4CC /* Info.plist */,
+			);
+			path = AugmentedRealityCompass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C945A79C1D53DB0A0078C4CC /* AugmentedRealityCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C945A7AF1D53DB0A0078C4CC /* Build configuration list for PBXNativeTarget "AugmentedRealityCompass" */;
+			buildPhases = (
+				C945A7991D53DB0A0078C4CC /* Sources */,
+				C945A79A1D53DB0A0078C4CC /* Frameworks */,
+				C945A79B1D53DB0A0078C4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AugmentedRealityCompass;
+			productName = AugmentedRealityCompass;
+			productReference = C945A79D1D53DB0A0078C4CC /* AugmentedRealityCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C945A7951D53DB0A0078C4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matt Milner";
+				TargetAttributes = {
+					C945A79C1D53DB0A0078C4CC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C945A7981D53DB0A0078C4CC /* Build configuration list for PBXProject "AugmentedRealityCompass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C945A7941D53DB0A0078C4CC;
+			productRefGroup = C945A79E1D53DB0A0078C4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C945A79C1D53DB0A0078C4CC /* AugmentedRealityCompass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C945A79B1D53DB0A0078C4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945A7AB1D53DB0A0078C4CC /* LaunchScreen.storyboard in Resources */,
+				C945A7A81D53DB0A0078C4CC /* Assets.xcassets in Resources */,
+				C945A7A61D53DB0A0078C4CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C945A7991D53DB0A0078C4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945A7A31D53DB0A0078C4CC /* ViewController.swift in Sources */,
+				C945A7A11D53DB0A0078C4CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C945A7A41D53DB0A0078C4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945A7A51D53DB0A0078C4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C945A7A91D53DB0A0078C4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945A7AA1D53DB0A0078C4CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C945A7AD1D53DB0A0078C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C945A7AE1D53DB0A0078C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C945A7B01D53DB0A0078C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AugmentedRealityCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.AugmentedRealityCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C945A7B11D53DB0A0078C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AugmentedRealityCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.AugmentedRealityCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C945A7981D53DB0A0078C4CC /* Build configuration list for PBXProject "AugmentedRealityCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945A7AD1D53DB0A0078C4CC /* Debug */,
+				C945A7AE1D53DB0A0078C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C945A7AF1D53DB0A0078C4CC /* Build configuration list for PBXNativeTarget "AugmentedRealityCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945A7B01D53DB0A0078C4CC /* Debug */,
+				C945A7B11D53DB0A0078C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C945A7951D53DB0A0078C4CC /* Project object */;
+}
